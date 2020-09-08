@@ -1,0 +1,18 @@
+* {
+  margin: jpg;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 0 20px 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-items: space-between;
+  align-items: center;
+  border: solid 2px red;
+  background: black;
+}
+
+.logo {
+  width: 50px;
+}
