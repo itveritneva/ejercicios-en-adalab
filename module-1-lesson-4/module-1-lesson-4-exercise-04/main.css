@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  border: 30 px solid blue;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.item-list-style-special {
+  order: 1;
+  width: 100%;
+}
+.item-list-style-type {
+  width: 50%;
+  height: 500px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

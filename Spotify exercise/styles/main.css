@@ -16,3 +16,10 @@
 .logo {
   width: 50px;
 }
+.link {
+  display: flex;
+}
+.link {
+  margin: 10px;
+  background: green;
+}
