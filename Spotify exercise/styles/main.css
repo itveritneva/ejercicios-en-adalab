@@ -1,25 +1,67 @@
 * {
-  margin: jpg;
   box-sizing: border-box;
+  font-family: Circular, Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-light.woff2")
+      format("woff2"),
+    url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-light.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Circular;
+  src: url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-black.woff2")
+      format("woff2"),
+    url("https://sp-bootstrap.global.ssl.fastly.net/8.12.1/fonts/circular-black.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* HEADER */
+
 .header {
-  padding: 0 20px 0 20px;
+  padding: 0 20px;
   display: flex;
-  flex-direction: row;
   justify-items: space-between;
   align-items: center;
-  border: solid 2px red;
   background: black;
 }
 
 .logo {
   width: 50px;
 }
-.link {
+
+.list {
   display: flex;
+  justify-content: space-between;
+  list-style-type: none;
 }
 .link {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.link-signup {
   margin: 10px;
-  background: green;
+  border-left: 1px solid white;
+}
+
+.link-download {
+  padding-right: 10 px;
 }
