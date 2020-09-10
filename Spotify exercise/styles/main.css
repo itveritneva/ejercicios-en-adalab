@@ -36,6 +36,9 @@ body {
 /* HEADER */
 
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   padding: 0 20px;
   display: flex;
   justify-items: space-between;
@@ -57,6 +60,7 @@ body {
   font-size: 14px;
   font-weight: bold;
 }
+
 .link-signup {
   margin: 10px;
   border-left: 1px solid white;
